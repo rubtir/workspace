@@ -4,7 +4,8 @@ notas = {
  'Historia': 9
 }
 minimo=10
-for asignatura,nota in notas.items():
-    if nota < minimo:
-        asignatura_min=asignatura
-print(f'{asignatura_min}')
+for clave,valor in notas.items():
+    if valor < minimo:
+        minimo=valor
+        claveMenosNota=clave
+print(f'{claveMenosNota}')
