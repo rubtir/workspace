@@ -40,11 +40,14 @@ while True:
                 }
         case '3':
             borrar= input('Que usuario deseas borrar: ')
-            del usuarios ['{borrar}']
+            if borrar in usuarios:
+                del usuarios[borrar]
+            else:
+                print('Este usuario no está')
         case '4':
             buscar = input ('Que usuario deseas buscar: ')
             if buscar in usuarios:
-                print(f'{buscar}')
+                print(f'{usuarios[buscar]}')
             else:
                 print('No está este usuario')
         case '5':
