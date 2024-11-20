@@ -51,6 +51,9 @@ while True:
             else:
                 print('No está este usuario')
         case '5':
-            
+            with open('Ejercicios ficheros/usuarios.dat', 'w') as f:
+                for clave,valor in usuarios.items():
+                    f.write(clave + '\n')
+                    f.write(str(valor)+'\n')
         case '6':
             break
