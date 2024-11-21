@@ -1,6 +1,6 @@
 def max_de_tres(a,b,c):
     if a>b and a>c:
-        print(a)
+        print('a')
     elif b>c and b>a:
         print(b)
     else:
