@@ -7,7 +7,7 @@ def tiempo_horas(segundos_1):
 def tiempo_segundos(horas,minutos,segundos):
     total=horas*3600+minutos*60+segundos
     print(f'Són {total} segundos')
-opcion=input('Si quieres que calcule una cantidad de segundos, para dertelo en horas, minutos y segundos di si. Si quieres que te de una cantidad de segundos, a partir de horas, minutos y segundos di otra cosa: ')
+opcion=input('Si quieres que calcule una cantidad de segundos, para decirtelo en horas, minutos y segundos di si. Si quieres que te de una cantidad de segundos, a partir de horas, minutos y segundos di otra cosa: ')
 if opcion == 'si':
     segundos_1= int(input('Dime los segundos: '))
     tiempo_horas(segundos_1)
