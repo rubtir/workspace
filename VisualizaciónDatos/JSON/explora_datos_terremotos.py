@@ -1,7 +1,7 @@
 import json
 
 # Explora la estuctura de datos.
-nombreFichero = 'datos/eq_data_1_day_m1.json'
+nombreFichero = 'JSON/datos/eq_data_1_day_m1.json'
 with open(nombreFichero) as f:
     todos_los_datos = json.load(f)
 

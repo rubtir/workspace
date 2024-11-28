@@ -4,7 +4,7 @@ from plotly.graph_objs import Scattergeo, Layout
 from plotly import offline
 
 # Explore the structure of the data.
-nombreFichero = 'datos/eq_data_30_day_m1.json'
+nombreFichero = 'JSON/datos/eq_data_30_day_m1.json'
 with open(nombreFichero) as f:
     todos_los_datos = json.load(f)
 

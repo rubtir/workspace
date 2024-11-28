@@ -3,7 +3,7 @@ from datetime import datetime
 
 from matplotlib import pyplot as plt
 
-nombreFichero = 'datos/sitka_weather_2018_simple.csv'
+nombreFichero = 'CSV/datos/sitka_weather_2018_simple.csv'
 with open(nombreFichero) as f:
     lector = csv.reader(f)
     fila_cabecera = next(lector)
@@ -19,7 +19,7 @@ with open(nombreFichero) as f:
 # Dibuja las temperaturas maximas.
 plt.style.use('seaborn-v0_8')
 fig, ax = plt.subplots()
-ax.plot(fechas, maximas, c='red')
+ax.plot(fechas, maximas, c='violet')
 
 # Formatea el gráfico.
 plt.title("Temperaturas diarias maximas - 2018", fontsize=24)
