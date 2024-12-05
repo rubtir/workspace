@@ -1,0 +1,5 @@
+Una API permite que nuestra aplicación se conecte con otras para recibir información, estas pueden ser públicas o privadas. Hay dos tipos: locales o remotas.
+API = Application programming interface
+Las API pueden ser de muchos tipos:
+-Rest = Representational State Transfer
+-JSON = JavaScript Object Notation
